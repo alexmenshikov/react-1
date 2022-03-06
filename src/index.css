@@ -163,6 +163,7 @@ svg {
 	font-weight: 300;
 	margin-top: 10px;
 	color: rgba(0, 0, 0, 0.45);
+	flex-grow: 1;
 }
 
 .card__item-price {
