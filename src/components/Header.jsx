@@ -12,7 +12,7 @@ const Header = ({filter, setFilter}) => {
 
     return (
         <div className="menu">
-            <h2>Предложения для отдыха</h2>
+            <h2>Товары</h2>
             <button className="filter" onClick={onClickFilter}>
                 Фильтр {filter.status
                 ? <IoMdRadioButtonOn/>

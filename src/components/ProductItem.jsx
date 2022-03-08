@@ -24,7 +24,7 @@ const ProductItem = ({product, favorite, remove}) => {
             <div className="card__item-content">
                 <div className="card__item-title">{product.title}</div>
                 <div className="card__item-description">{product.description}</div>
-                <div className="card__item-price">от <span>{product.price}</span> ₽</div>
+                <div className="card__item-price">от <span>{product.price}</span> $</div>
             </div>
         </div>
     );
